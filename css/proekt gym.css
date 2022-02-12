@@ -1,0 +1,99 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;        
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
+
+.container  {
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+.site-menu  {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    color: #fff;
+}
+.site-navigation    {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+}
+.site-name  {
+    font-size: 30px;
+}
+.site-name1 {
+    color: #00B3F9; 
+}
+.site-name2 {
+    color: #fff;
+}
+.left-main-blocks-menu  {
+    display: flex;
+    font-size: 20px;
+}
+.site-menu-block2, .site-menu-block1   {
+    margin-left: 20px;
+}
+.site-menu-block2   {
+    color: #00B3F9;
+}
+
+.site-hero  {
+    background-image: url("../img/rasm3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+.hero-text-block    {
+    text-align: center;
+    font-size: 27px;
+    padding-top: 300px;
+    padding-left: 350px;
+}
+.hero-text1 {
+    color: #fff;
+}
+.hero-text2 {
+    color: #00B3F9;
+}
+
+.site-navigation2    {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    margin-top: ;
+}
+.aboutus    {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-image: url("../img/rasm5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner-main-block   {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
+}
+.inner-main-block h2{
+    color: #00B3F9;
+    font-size: 25px;
+}
+.inner-main-block p{
+    color: #fff;
+    line-height: 1.3;
+    font-size: 20px;
+    text-align: start;
+    padding-top: 20px;
+}
